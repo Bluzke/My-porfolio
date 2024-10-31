@@ -1,0 +1,13 @@
+.header {
+    background-image: url("../assets/header-image.jpg");
+    height: 250px;
+  }
+  
+  .header h1 {
+    margin: 0;
+    padding-top: 65px;
+    text-align: left;
+    color: white;
+    font-size: 2rem;
+  }
+  
