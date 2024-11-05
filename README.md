@@ -42,7 +42,7 @@ Screenshots or additional examples of use are not provided, as the content will 
 ## Questions
 For any questions, you can contact me via the following links:
 
-GitHub: github.com/your-username
-Email: your-email@example.com
+GitHub: https://github.com/Bluzke
+Email: jsilber60@gmail.com
 
 
