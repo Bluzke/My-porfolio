@@ -4,12 +4,28 @@ height: 90vh;
 padding-left: 50px;
 padding-top: 50px;
 }
+@media screen and (max-width: 529px){
 p {
     width: 40vh;
     text-align: center;
 }
 .picture {
-    height: 170px;
+    height: 160px;
+    width: 140px;
+    border-radius: 100%;
+}
+}
+@media screen and (min-width: 530px){
+.about {
+    text-align: center;
+}
+p{
+    text-align: center;
+    padding
+}
+.picture {
+    height: 200px;
     width: 160px;
     border-radius: 100%;
+}
 }
