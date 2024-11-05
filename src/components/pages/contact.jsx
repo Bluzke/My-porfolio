@@ -1,6 +1,5 @@
 import { useState } from 'react';
-import '../../styles/contact.css'
-import Header from '../header';
+import '../../styles/pages.css'
 function Contact() {
 // setting two state variables for Name, Email< and Message
 const [userName, setUserName] = useState('')
@@ -71,13 +70,13 @@ return (
             placeholder="Type Your Message Here"
             />
             </div>
-            <button type="submit" className="submit">Submit</button>
-        </form>
         {errorMessage && (
         <div>
           <p className="error-text">{errorMessage}</p>
         </div>
       )}
+      <button type="submit" className="submit">Submit</button>
+      </form>
     </div>
 );
 }

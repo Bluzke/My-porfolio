@@ -1,13 +1,25 @@
+
+
 .header {
-    background-image: url("../assets/header-image.jpg");
+    background-image: url("../assets/header.webp");
     height: 250px;
   }
   
   .header h1 {
     margin: 0;
     padding-top: 65px;
-    text-align: left;
+    text-align: center;
+
     color: white;
     font-size: 2rem;
   }
   
+
+  @media screen and (max-width: 526px) {
+    .header h1 {
+      text-align: center;
+      color: white;
+      font-size: 2rem;
+      padding-bottom: 40px;
+    }
+  }

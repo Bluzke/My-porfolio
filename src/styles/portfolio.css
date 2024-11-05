@@ -1,0 +1,29 @@
+.portfolio {
+    height: 500px;
+    width: 45%;
+    margin: 10px;
+    background-size: cover;
+    
+
+
+}
+
+.outer {
+    padding: 80px;
+    background-color: lightskyblue;
+}
+
+.inner {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+}
+
+@media screen and (max-width: 1000px) {
+    .portfolio {
+        flex-direction: row;
+        width: 90%;
+        background-size: cover;
+        height: 300px;
+    }
+}

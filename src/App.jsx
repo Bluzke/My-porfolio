@@ -1,14 +1,15 @@
 import NavTabs from './components/NavTabs'
 import Header from './components/header';
-import Contact from './components/pages/contact';
+import { Outlet } from 'react-router-dom';
 
 function App() {
   return (
-    <div>
-      <Header/>
-      <NavTabs/>
-      <Contact/>
-    </div>
+    <>
+    <Header />
+    <main className="mx-3">
+      <Outlet />
+    </main>
+  </>
   
   );
 }

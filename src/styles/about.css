@@ -1,0 +1,15 @@
+.about {
+background-color: lightskyblue;
+height: 90vh;
+padding-left: 50px;
+padding-top: 50px;
+}
+p {
+    width: 40vh;
+    text-align: center;
+}
+.picture {
+    height: 170px;
+    width: 160px;
+    border-radius: 100%;
+}

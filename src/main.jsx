@@ -1,10 +1,11 @@
-import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import ReactDOM from 'react-dom/client'
+import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+
 
 
 import App from './App.jsx'
 import About from './components/pages/about.jsx';
-import Porfolio from './components/pages/portfolio.jsx';
+import Portfolio from './components/pages/portfolio.jsx';
 // import NavTabs from './components/NavTabs'
 // import Header from './components/header';
 import Contact from './components/pages/contact';
@@ -24,7 +25,7 @@ const router = createBrowserRouter([
             },
             {
                 path: '/Portfolio',
-                element: <Porfolio />
+                element: <Portfolio />
             },
             {
                 path: '/Contact',
